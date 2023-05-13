@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>HANGMAN</h1>
+      <h3>VANILLA JAVASCRIPT HANGMAN GAME</h3>
+      <p>
+        Use the alphabet below to guess the word, or click hint to get a clue.
+      </p>
+    </div>
+    <div>
+      <div id="lettersDiv"></div>
+      <div id="blanksDiv"></div>
+      <div id="livesDiv"></div>
 
-  <script src="./scripts/script.js"></script>
-</body>
+      <canvas id="stickman"></canvas>
+      <div>
+        <button id="reset">Play Again</button>
+      </div>
+    </div>
+  </body>
 </html>
